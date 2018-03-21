@@ -1,9 +1,5 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# Thibaut's Journal
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Usage
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-## Running in development
-`gatsby develop`
+`npm run dev`

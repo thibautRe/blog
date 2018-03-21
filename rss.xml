@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Thibaut's journal]]></title><description><![CDATA[Scribblings and fuzzlings.]]></description><link>http://thibaut.re/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 21 Mar 2018 17:49:28 GMT</lastBuildDate><item><title><![CDATA[Map Sopal: Behind The Scenes]]></title><description><![CDATA[TL;DR: Building a map from scratch is fun The Map  Sopal  is a cartography of the underground tunnels of Paris, built as an interactive web…]]></description><link>http://thibaut.re//map-sopal/</link><guid isPermaLink="false">http://thibaut.re//map-sopal/</guid><pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TL;DR: Building a map from scratch is fun&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Thibaut's journal]]></title><description><![CDATA[Scribblings and fuzzlings.]]></description><link>http://thibaut.re/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 21 Mar 2018 18:14:37 GMT</lastBuildDate><item><title><![CDATA[Map Sopal: Behind The Scenes]]></title><description><![CDATA[TL;DR: Building a map from scratch is fun The Map  Sopal  is a cartography of the underground tunnels of Paris, built as an interactive web…]]></description><link>http://thibaut.re//map-sopal/</link><guid isPermaLink="false">http://thibaut.re//map-sopal/</guid><pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;TL;DR: Building a map from scratch is fun&lt;/p&gt;
 &lt;p&gt;The Map &lt;em&gt;Sopal&lt;/em&gt; is a cartography of the underground tunnels of Paris, built as an interactive web-based map. It is available for a restricted number of people, since the information it contains is sensitive. In this Behind-the-scenes article, I will try to document my journey to build this map.&lt;/p&gt;
 &lt;h2&gt;Getting the data&lt;/h2&gt;
 &lt;p&gt;The first thing needed to build a map is the data of the galleries, rooms, sightseeings and other curiosities. The galleries running under Paris are quite tortuous and even though they mostly follow the ground-level streets, they are not nearly as straight. Some parts are narrow, some are quite wide. Some parts are flooded with water, some are completely dry. Some parts are 3m high, while you need to crawl in some others. These are some of the details that I wanted to reflect on the map.&lt;/p&gt;
@@ -6,7 +6,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-fea38.jpg&quot;
+    href=&quot;/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-fea38.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -25,14 +25,14 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;IGC map&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-f8fb9.jpg&quot;
-        srcset=&quot;/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-e8976.jpg 148w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-63df2.jpg 295w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-f8fb9.jpg 590w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-85e3d.jpg 885w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-d1924.jpg 1180w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-9452e.jpg 1770w,
-/gatsby-starter-blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-fea38.jpg 2456w&quot;
+        src=&quot;/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-f8fb9.jpg&quot;
+        srcset=&quot;/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-e8976.jpg 148w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-63df2.jpg 295w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-f8fb9.jpg 590w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-85e3d.jpg 885w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-d1924.jpg 1180w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-9452e.jpg 1770w,
+/blog/static/igc-0010bc92d2a106dca3aec3c977f4aab1-fea38.jpg 2456w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-0a02f.png&quot;
+    href=&quot;/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-0a02f.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -65,11 +65,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;JOSM screenshot&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-fb8a0.png&quot;
-        srcset=&quot;/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-1a291.png 148w,
-/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-2bc4a.png 295w,
-/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-fb8a0.png 590w,
-/gatsby-starter-blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-0a02f.png 870w&quot;
+        src=&quot;/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-fb8a0.png&quot;
+        srcset=&quot;/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-1a291.png 148w,
+/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-2bc4a.png 295w,
+/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-fb8a0.png 590w,
+/blog/static/josm-805355405eb68d9dd9f8585fd77fcc34-0a02f.png 870w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -80,7 +80,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-5917e.png&quot;
+    href=&quot;/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-5917e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -99,11 +99,11 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;JOSM screenshot&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-fb8a0.png&quot;
-        srcset=&quot;/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-1a291.png 148w,
-/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-2bc4a.png 295w,
-/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-fb8a0.png 590w,
-/gatsby-starter-blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-5917e.png 711w&quot;
+        src=&quot;/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-fb8a0.png&quot;
+        srcset=&quot;/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-1a291.png 148w,
+/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-2bc4a.png 295w,
+/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-fb8a0.png 590w,
+/blog/static/josm2-59b07f5f6b2ad1340dfc55ffa7f46209-5917e.png 711w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
@@ -119,7 +119,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png&quot;
+    href=&quot;/blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -138,10 +138,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Map early design&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png&quot;
-        srcset=&quot;/gatsby-starter-blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-dc4e8.png 148w,
-/gatsby-starter-blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-29209.png 295w,
-/gatsby-starter-blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png 512w&quot;
+        src=&quot;/blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png&quot;
+        srcset=&quot;/blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-dc4e8.png 148w,
+/blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-29209.png 295w,
+/blog/static/design-1-8666f8841410430b0e5aa8d1773fad56-04f9d.png 512w&quot;
         sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
       /&gt;
     &lt;/span&gt;
@@ -156,7 +156,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-4af96.jpg&quot;
+    href=&quot;/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-4af96.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -175,12 +175,12 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;zoom levels&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-f8fb9.jpg&quot;
-        srcset=&quot;/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-e8976.jpg 148w,
-/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-63df2.jpg 295w,
-/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-f8fb9.jpg 590w,
-/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-85e3d.jpg 885w,
-/gatsby-starter-blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-4af96.jpg 1152w&quot;
+        src=&quot;/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-f8fb9.jpg&quot;
+        srcset=&quot;/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-e8976.jpg 148w,
+/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-63df2.jpg 295w,
+/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-f8fb9.jpg 590w,
+/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-85e3d.jpg 885w,
+/blog/static/celier-c73e1f7bdbba262d177b3acc5bf0cd32-4af96.jpg 1152w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;

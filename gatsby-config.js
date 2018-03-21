@@ -5,7 +5,7 @@ module.exports = {
     description: 'Scribblings and fuzzlings.',
     siteUrl: 'http://thibaut.re/',
   },
-  pathPrefix: '/blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

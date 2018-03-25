@@ -33,6 +33,9 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <footer>
+          <Link to='/about'>About</Link>
+        </footer>
       </div>
     )
   }

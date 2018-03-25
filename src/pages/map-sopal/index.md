@@ -1,10 +1,9 @@
 ---
 title: "Map Sopal: Behind The Scenes"
 date: "2018-03-18"
-image: "./igc.jpg"
 ---
 
-TL;DR: Building a map from scratch is fun
+TL;DR: Building a map from scratch is fun.
 
 The Map _Sopal_ is a cartography of the underground tunnels of Paris, built as an interactive web-based map. It is available for a restricted number of people, since the information it contains is sensitive. In this Behind-the-scenes article, I will try to document my journey to build this map.
 

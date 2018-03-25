@@ -7,7 +7,7 @@ class Mail extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ mail: 'mailto:hello@thibaut.re' })
+    this.setState({ mail: 'mailto:thibaut@thibaut.re' })
   }
 
   render() {
